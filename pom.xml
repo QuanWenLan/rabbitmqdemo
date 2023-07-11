@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lanwq</groupId>
+    <artifactId>all-rabbitmqdemo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>message01-hello-world/hello-world-producer</module>
+        <module>message01-hello-world/hello-world-consumer</module>
+        <module>message02-work-queues/work-queue-producer</module>
+        <module>message02-work-queues/work-queue-consumer</module>
+        <module>message03-pub-sub/pub-sub-producer</module>
+        <module>message03-pub-sub/pub-sub-consumer</module>
+        <module>message-rpc/rpc-client</module>
+        <module>message-rpc/rpc-server</module>
+        <module>message-ttl/ttl</module>
+        <module>message-dead-letter-exchange</module>
+        <module>message-delay-dlx</module>
+        <module>message-rabbitmq-cluster</module>
+        <module>message-sendmsg</module>
+        <module>message-receivemsg</module>
+    </modules>
+</project>
